@@ -1,0 +1,186 @@
+.ltext{
+	-fx-font-family: 'Segoe UI Semibold';
+	-fx-font-size:16;
+	-fx-font-weight: bolder;
+	-fx-text-fill:#E5F0E9 ;
+}
+.lerrtext{
+	-fx-font-family: 'Franklin Gothic Demi';
+	-fx-font-size:15;
+	-fx-font-weight: bolder;
+	-fx-text-fill: #B6002A;
+}
+.pactext{
+	-fx-font-family: 'Segoe UI Semibold';
+	-fx-font-size:20;
+	-fx-font-weight: bolder;
+	-fx-text-fill: 	#ffddaa ;
+}
+.btntran{
+	 -fx-background-color: transparent;
+}
+.pacback{
+	-fx-background-color:#442255;
+}
+.background{
+	-fx-background-color:#fff2cc;
+}
+.addBackground{
+	-fx-background-color:#313b69;
+}
+.Loginbackground{
+	-fx-background-color:#007128;
+}
+.option{
+	-fx-font-family: 'Calibri (Body)';
+	-fx-font-size:20;
+	-fx-font-weight: bolder;
+	-fx-padding: 10px;
+	-fx-text-fill:#414073;
+	-fx-background-color:#f09393;
+}
+.leftpane{
+	-fx-background-color: #373363;
+}
+.img{
+	-fx-pref-height: 5px;
+    -fx-pref-width: 5px;
+    -fx-max-width: 5px;
+    -fx-max-height: 5px;
+    -fx-min-width: 5px;
+    -fx-min-height: 5px;
+}
+.lrBtn{
+     -fx-background-color: 
+        linear-gradient(#ffd65b, #CC9800),
+        linear-gradient(#ffef84, #e5bd45),
+        linear-gradient(#ffea6a, #CC9800),
+        linear-gradient(#ffe8a6 0%,#ffe599 50%, #e5bd45 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+     -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 16;
+}
+.clearBtn{
+	 -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color:linear-gradient(from 0% 93% to 0% 100%, #a44c7a 0%, #b25887 100%),
+        #9d4024,
+       #c27ba0,
+        radial-gradient(center 50% 50%, radius 100%, #c27ba0, #a44c7a);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 16;
+    -fx-text-fill:#f3e7ed;
+}
+#toppane{
+	-fx-background-color:#414073;
+	-fx-padding: 30px;
+}
+#username{
+	-fx-text-fill: #e3d7b8;
+	-fx-font-size: 20;
+}
+#dashboard{
+	-fx-text-fill:#e3d7b8; 
+	-fx-font-size:20;
+	-fx-font-weight:bolder;
+}
+.homelabel{
+	-fx-font-size: 20;
+	-fx-text-alignment: center;
+}
+.relabel{
+	-fx-font-size: 20;
+	-fx-text-fill: #ffffff;
+}
+.searchkey{
+	-fx-font-size:20;
+	-fx-text-fill: #313b69;
+	-fx-font-weight: bolder;
+}
+.searchbackground
+{
+	-fx-background-color:#fffdd0; 
+}
+.setstyleforupdate{
+	-fx-padding: 20px;
+	-fx-font-size: 20;
+	-fx-font-family: 'Segoe UI Semibold';
+	-fx-font-weight: bolder;
+}
+.setstyleforadd{
+	-fx-font-family: 'Calibri (Body)';
+	-fx-font-size:20;
+	-fx-font-weight: bolder;
+	-fx-text-fill: #f09393;
+}
+.userbtn {
+    -fx-border-radius: 50;
+    -fx-background-radius: 50;
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+}
+.rounded-image{
+	 -fx-border-radius: 50;
+    -fx-background-radius: 50;
+}
+.text-field {
+    -fx-pref-width: 200px; /* Set the desired width */
+}
+.btnAdd{
+	/*#85AF38 
+	  #4F6921
+	  #3b2169
+	  #91B74B
+	  #1D240F
+	  #C2D79B
+	 */
+	      -fx-background-color: 
+        linear-gradient(#91B74B,   #4F6921),
+        linear-gradient(#91B74B, #85AF38 ),
+        linear-gradient(#9dbf5f, #4F6921),
+        linear-gradient(#91B74B 0%,#9dbf5f 50%, #91B74B 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+     -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 16;
+    -fx-text-fill: #4B4A45;
+}
+.gpBackground{
+	-fx-background-color:rgba(36, 36,36,0.7); 
+	
+}
+.textforE{
+	-fx-font-size: 16;
+	-fx-font-family: 'Segoe UI Semibold';
+	-fx-text-fill: #4B4A45;
+	-fx-font-weight: bolder;
+}
+.whiteText{
+	-fx-text-fill: #E9F1F7;
+	-fx-font-size:15;
+	-fx-font-family: 'Segoe UI Semibold';
+}
+.forLabelSize{
+	-fx-min-width: 100px;
+    -fx-min-height: 30px;
+    -fx-padding:5 0 5 2;
+    -fx-text-fill:#4B4A45;
+    -fx-font-size:15;
+}
+.forTextSize{
+	-fx-pref-width:  20px;
+    -fx-pref-height: 30px;
+    
+}
+.vbox-with-padding {
+    -fx-padding: 20px; /* Adjust the padding values as needed */
+}
